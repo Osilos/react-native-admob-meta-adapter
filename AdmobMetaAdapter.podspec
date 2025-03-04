@@ -39,4 +39,5 @@ Pod::Spec.new do |s|
       s.dependency "ReactCommon/turbomodule/core"
     end
   end
+  s.dependency "GoogleMobileAdsMediationFacebook"
 end
