@@ -11,11 +11,11 @@ class AdmobMetaAdapterModule(reactContext: ReactApplicationContext) :
     return NAME
   }
 
-  override fun setAdvertiserTrackingEnable(consent: Boolean) {
+  override fun setAdvertiserTrackingEnable() {
     //android don't need any implementation here.
   }
 
-  override fun setAdvertiserTrackingDisable(consent: Boolean) {
+  override fun setAdvertiserTrackingDisable() {
     //android don't need any implementation here.
   }
 
