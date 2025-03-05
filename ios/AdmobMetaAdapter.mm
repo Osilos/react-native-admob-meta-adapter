@@ -6,9 +6,12 @@
 RCT_EXPORT_MODULE()
 
 
-- (void) setAdvertiserTracking:(nonnull NSNumber *)value {
-    BOOL consentValue = [value boolValue]; 
-    [FBAdSettings setAdvertiserTrackingEnabled:consentValue];
+- (void) setAdvertiserTrackingEnable {
+    [FBAdSettings setAdvertiserTrackingEnabled:YES];
+}
+
+- (void) setAdvertiserTrackingDisable {
+    [FBAdSettings setAdvertiserTrackingDisable:NO];
 }
 
 
