@@ -11,9 +11,8 @@ RCT_EXPORT_MODULE()
 }
 
 - (void) setAdvertiserTrackingDisable {
-    [FBAdSettings setAdvertiserTrackingDisable:NO];
+    [FBAdSettings setAdvertiserTrackingEnabled:NO];
 }
-
 
 - (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:
     (const facebook::react::ObjCTurboModule::InitParams &)params

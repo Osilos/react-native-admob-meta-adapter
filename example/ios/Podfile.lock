@@ -1,5 +1,5 @@
 PODS:
-  - AdmobMetaAdapter (0.1.0):
+  - AdmobMetaAdapter (0.3.0):
     - DoubleConversion
     - glog
     - GoogleMobileAdsMediationFacebook
@@ -1774,7 +1774,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  AdmobMetaAdapter: 342c228688f7004611a540ba59b0cb195e627fd8
+  AdmobMetaAdapter: 08347c4ecb25c83527ce0f2c715a2f482ae691fb
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
