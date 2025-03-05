@@ -12,11 +12,12 @@ npm install react-native-admob-meta-adapter
 
 
 ```js
-import { multiply } from 'react-native-admob-meta-adapter';
+import AdmobMetaAdapter from 'react-native-admob-meta-adapter';
 
-// ...
+AdmobMetaAdapter.setAdvertiserTrackingEnable();
 
-const result = multiply(3, 7);
+AdmobMetaAdapter.setAdvertiserTrackingDisable();
+
 ```
 
 
