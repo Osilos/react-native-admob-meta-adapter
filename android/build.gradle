@@ -101,7 +101,7 @@ dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-  implementation("com.google.android.gms:play-services-ads:24.0.0")
+  implementation("com.google.android.gms:play-services-ads:23.6.0")
   implementation("com.google.ads.mediation:facebook:6.19.0.0")
 }
 
